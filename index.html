@@ -24,8 +24,8 @@
 
     <header class="bg-radial-[at_25%_25%] from-zinc-800 to-black to-75%">
         <!-- navbar section  -->
-        <nav class="max-w-6xl mx-auto flex justify-between align-middle py-5 px-8 lg:px-0">
-            <h3 class="text-[#E6533C] font-extrabold text-4xl">Fitness</h3>
+        <nav class="max-w-6xl mx-auto flex justify-between align-middle py-5 px-4 lg:px-0">
+            <h3 class="text-[#E6533C] font-extrabold text-4xl">Fitness Grow</h3>
             <ul
                 class="sm:flex hidden items-center gap-10  border-2 border-gray-800 rounded-4xl px-1 py-1 font-normal text-lg ">
                 <li class="hover:bg-[#E6533C] hover:py-2 hover:px-2 rounded-4xl"><a href="#">Home</a>
@@ -47,10 +47,11 @@
         </nav>
 
         <!-- hero section  -->
-        <section class="max-w-6xl mx-auto md:flex justify-between items-center px-8 lg:px-0">
+        <section class="max-w-6xl mx-auto md:flex justify-between items-center px-4 lg:px-0">
             <!-- hero left (text) -->
-            <div class="w-8/12  mx-auto">
-                <h1 class="font-black text-4xl sm:text-7xl">Get body in <br> <span class="dancing-font">shape</span> &
+            <div>
+                <h1 class="font-black text-4xl sm:text-7xl">Get body in <br> <span
+                        class="dancing-font text-[#E6533C]">shape</span> &
                     stay <br>healthy</h1>
                 <p class="text-gray-500 py-7">A huge selection of health and fitness content, healthy recipes and <br>
                     transformation stories to help
@@ -64,27 +65,25 @@
             </div>
             <!-- hero right (img) -->
             <div class="relative">
-                <img class="mx-auto w-90" src="images/hero.png"
+                <img class="mx-auto lg:w-90" src="images/hero.png"
                     alt="this is an image that would make you to build your fitness.">
-                <!-- play btn  -->
-                <div class="hidden lg:block absolute -left-52 top-68"> <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" fill="currentColor" class="size-8">
-                        <path fill-rule="evenodd"
-                            d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
-                            clip-rule="evenodd" />
-                    </svg>
-
-                </div>
                 <!-- float card 1 -->
                 <div
-                    class="items-center py-2 px-4 bg-[#303030] rounded-xl absolute top-12 sm:top-30 -right-16 sm:right-60 md:-right-8 lg:-right-12">
+                    class="items-center py-2 px-3 bg-[#303030] rounded-xl absolute top-12 sm:top-30 -right-16 sm:right-60 md:-right-8 lg:-right-12 hidden sm:inline-block">
                     <h3 class="text-4xl font-black">500+</h3>
                     <p class="text-gray-300">Free Workout Videos</p>
                 </div>
                 <!-- float card 2 -->
                 <div
-                    class="flex items-center gap-6 py-4 px-6 bg-[#303030] rounded-xl absolute left-0 lg:-left-32 bottom-48 lg:bottom-16">
-                    <div class="w-10 h-10 bg-[#E6533C] rounded-full"></div>
+                    class="flex items-center gap-4 py-3 px-5 bg-[#303030] rounded-xl absolute left-0 lg:-left-30 bottom-48 lg:bottom-16">
+                    <div class="w-10 h-10 bg-[#E6533C] rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="size-8 ml-1">
+                            <path fill-rule="evenodd"
+                                d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
                     <div>
                         <h3 class="text-2xl font-black ">350+</h3>
                         <p class="text-gray-300">Video Tutorial</p>
@@ -95,7 +94,7 @@
     </header>
     <main class="max-w-6xl mx-auto">
         <!-- Change Your Habits section  -->
-        <section class="grid my-40 px-8 lg:px-0 place-content-around">
+        <section class="grid my-20 sm:my-40 px-4 lg:px-0 place-content-around">
             <div class="text-center sm:w-7/12 mx-auto">
                 <h2 class="text-5xl font-black pb-4">Change Your Habits</h2>
                 <p class="text-gray-500 pb-14">We believe fitness should be accessible to everyone, everywhere, anytime
@@ -127,7 +126,7 @@
             </div>
         </section>
         <!-- Run an Extra Mile Easily section  -->
-        <section class="bg-[#222222] md:flex  justify-around items-center py-10 rounded-xl my-40 px-8 lg:px-0">
+        <section class="bg-[#222222] md:flex  justify-around items-center py-10 rounded-xl my-20 sm:my-40 px-4 lg:px-0">
             <div class="md:w-5/12 mx-auto">
                 <h2 class="text-5xl font-black pb-4">Run an Extra Mile Easily</h2>
                 <p class="text-gray-500 pb-6">We believe fitness should be accessible to everyone, everywhere,
@@ -139,43 +138,52 @@
             </div>
         </section>
         <!-- Trainings and Exercises section  -->
-        <section class="my-40 px-8 lg:px-0">
+        <section class="px-4 lg:px-0">
             <h2 class="text-5xl font-black pb-4">Trainings and Exercises</h2>
-            <p class="text-gray-500">Push your limits, break barriers, and grow stronger every day. Training turns <br>
-                effort into unstoppable progress and success.</p>
+            <p class="text-gray-500">Push your limits, break barriers, and grow stronger every day. Training turns
+                effort <br>into unstoppable progress and success.</p>
 
             <!-- images  -->
             <div class="grid grid-cols-2 md:grid-cols-4 mt-10">
                 <div>
-                    <img class="w-full h-60" src="images/exercise1.jpg" alt="this is an exercise that make you great">
+                    <img class="w-full h-19 sm:h-60" src="images/exercise1.jpg"
+                        alt="this is an exercise that make you great">
                 </div>
                 <div class="md:col-span-2 ">
-                    <img class="w-full h-60" src="images/exercise2.png" alt="this is an exercise that make you great">
+                    <img class="w-full sm:h-60" src="images/exercise2.png"
+                        alt="this is an exercise that make you great">
                 </div>
                 <div>
-                    <img class="w-full h-60" src="images/exercise3.png" alt="this is an exercise that make you great">
+                    <img class="w-full sm:h-60" src="images/exercise3.png"
+                        alt="this is an exercise that make you great">
                 </div>
                 <div class="md:col-span-2">
-                    <img class="w-full h-60" src="images/exercise4.png" alt="this is an exercise that make you great">
+                    <img class="w-full sm:h-60" src="images/exercise4.png"
+                        alt="this is an exercise that make you great">
                 </div>
                 <div>
-                    <img class="w-full h-60" src="images/exercise5.jpg" alt="this is an exercise that make you great">
+                    <img class="w-full sm:h-60" src="images/exercise5.jpg"
+                        alt="this is an exercise that make you great">
                 </div>
                 <div>
-                    <img class="w-full h-60" src="images/exercise6.jpg" alt="this is an exercise that make you great">
+                    <img class="w-full sm:h-60" src="images/exercise6.jpg"
+                        alt="this is an exercise that make you great">
                 </div>
             </div>
         </section>
         <!-- BMI Calculator section   -->
-        <section class="sm:my-40 lg:px-0 mx-auto">
-            <h2 class="text-5xl font-black pb-4 text-center">BMI Calculator</h2>
-            <p class="text-gray-500 text-center">Track your health and stay fit with the BMI calculator. A simple way to
-                measure progress and <br> maintain balance for a healthier you!</p>
-            <div class="md:flex justify-between  mt-24 p-20 bg-[#222222]">
+        <section class="my-20 sm:my-40 mx-auto">
+            <div class="px-4 lg:px-0">
+                <h2 class="text-5xl font-black pb-4 text-center">BMI Calculator</h2>
+                <p class="text-gray-500 text-center">Track your health and stay fit with the BMI calculator. A simple
+                    way to
+                    measure progress and <br> maintain balance for a healthier you!</p>
+            </div>
+            <div class="max-w-6xl mx-auto  px-4 md:flex gap-18 justify-between mt-16 sm:p-20 bg-[#222222] rounded-xl">
                 <!-- table  -->
-                <div class="mx-auto">
+                <div class="pt-8 sm:pt-0 ">
                     <h3 class="text-3xl font-black">BMI Calculator Chart</h3>
-                    <table class="my-8">
+                    <table class="my-10">
                         <thead class="p-8 ">
                             <th class="border-2 border-gray-500 p-2">BMI</th>
                             <th class="border-2 border-gray-500 p-2">Weight Status</th>
@@ -201,7 +209,7 @@
                     </table>
                 </div>
                 <!-- calculator  -->
-                <div class="mx-auto">
+                <div class="pb-8 sm:pb-0">
                     <h3 class="text-3xl font-black">Calculate your BMI</h3>
                     <p class="text-gray-500">Calculate your BMI and take the first step toward a healthier, balanced
                         lifestyle!</p>
@@ -223,14 +231,66 @@
                             <option value="activity">Lazy</option>
                             <option value="activity">Others</option>
                         </select>
-
                     </div>
-
                     <button class="text-lg font-semibold bg-[#E6533C] py-4 px-10 rounded-4xl">Calculate Now</button>
                 </div>
             </div>
         </section>
+        <!-- Meet Our Team section  -->
+        <section class="px-4 lg:px-0 mx-auto">
+            <div class="text-center pb-16">
+                <h2 class="text-5xl font-black pb-4">Meet Our Team</h2>
+                <p class="text-gray-500">Individually talented, collectively unstoppable. Meet the team that makes it
+                    all happen!</p>
+            </div>
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 bg-[#222222] rounded-xl p-4 mx-auto">
+                <div class="relative">
+                    <img class="w-full h-75 rounded-lg" src="images/trainer1.png" alt="this is a trainer images">
+                    <div class="absolute left-8 bottom-10">
+                        <h4 class="text-xl font-bold">Jerome Bell</h4>
+                        <small class="text-gray-300">Trainer</small>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="w-full h-75 rounded-lg" src="images/trainer2.png" alt="this is a trainer images">
+                    <div class="absolute left-8 bottom-10">
+                        <h4 class="text-xl font-bold">Cameron William</h4>
+                        <small class="text-gray-300">Trainer</small>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="w-full h-75 rounded-lg" src="images/trainer3.png" alt="this is a trainer images">
+                    <div class="absolute left-8 bottom-10">
+                        <h4 class="text-xl font-bold">Darrel Steward</h4>
+                        <small class="text-gray-300">Trainer</small>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="w-full h-75 rounded-lg" src="images/trainer4.png" alt="this is a trainer images">
+                    <div class="absolute left-8 bottom-10">
+                        <h4 class="text-xl font-bold">Dianne Russell</h4>
+                        <small class="text-gray-300">Trainer</small>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="w-full h-75 rounded-lg" src="images/trainer5.png" alt="this is a trainer images">
+                    <div class="absolute left-8 bottom-10">
+                        <h4 class="text-xl font-bold">Cody Fisher</h4>
+                        <small class="text-gray-300">Trainer</small>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="w-full h-75 rounded-lg" src="images/trainer6.png" alt="this is a trainer images">
+                    <div class="absolute left-8 bottom-10">
+                        <h4 class="text-xl font-bold">Theresa Webb</h4>
+                        <small class="text-gray-300">Trainer</small>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
+
     <footer>
 
     </footer>
