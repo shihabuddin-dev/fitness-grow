@@ -149,7 +149,7 @@
                 <div>
                     <img class="w-full h-60" src="images/exercise1.jpg" alt="this is an exercise that make you great">
                 </div>
-                <div class="md:col-span-2">
+                <div class="md:col-span-2 ">
                     <img class="w-full h-60" src="images/exercise2.png" alt="this is an exercise that make you great">
                 </div>
                 <div>
@@ -163,6 +163,70 @@
                 </div>
                 <div>
                     <img class="w-full h-60" src="images/exercise6.jpg" alt="this is an exercise that make you great">
+                </div>
+            </div>
+        </section>
+        <!-- BMI Calculator section   -->
+        <section class="sm:my-40 lg:px-0 mx-auto">
+            <h2 class="text-5xl font-black pb-4 text-center">BMI Calculator</h2>
+            <p class="text-gray-500 text-center">Track your health and stay fit with the BMI calculator. A simple way to
+                measure progress and <br> maintain balance for a healthier you!</p>
+            <div class="md:flex justify-between  mt-24 p-20 bg-[#222222]">
+                <!-- table  -->
+                <div class="mx-auto">
+                    <h3 class="text-3xl font-black">BMI Calculator Chart</h3>
+                    <table class="my-8">
+                        <thead class="p-8 ">
+                            <th class="border-2 border-gray-500 p-2">BMI</th>
+                            <th class="border-2 border-gray-500 p-2">Weight Status</th>
+                        </thead>
+                        <tbody class="text-gray-200 text-center">
+                            <tr>
+                                <td class="border-2 border-gray-500 p-1">18.5 - 24.9</td>
+                                <td class="border-2 border-gray-500 p-1">Healthy</td>
+                            </tr>
+                            <tr>
+                                <td class="border-2 border-gray-500 p-1">Below 18.5</td>
+                                <td class="border-2 border-gray-500 p-1">Underweight</td>
+                            </tr>
+                            <tr>
+                                <td class="border-2 border-gray-500 p-1">25.0 - 29.9</td>
+                                <td class="border-2 border-gray-500 p-1">Overweight</td>
+                            </tr>
+                            <tr>
+                                <td class="border-2 border-gray-500 p-1">30.0 - and Above</td>
+                                <td class="border-2 border-gray-500 p-1">Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- calculator  -->
+                <div class="mx-auto">
+                    <h3 class="text-3xl font-black">Calculate your BMI</h3>
+                    <p class="text-gray-500">Calculate your BMI and take the first step toward a healthier, balanced
+                        lifestyle!</p>
+                    <div class="grid gap-4 grid-cols-2 my-10">
+                        <input class="pl-4 py-2 rounded-lg bg-[#FFFFFF1A] text-gray-50" type="text"
+                            placeholder="Height/cm">
+                        <input class="pl-4 py-2 rounded-lg bg-[#FFFFFF1A]" type="text" placeholder="Weight/kg">
+                        <input class="pl-4 py-2 rounded-lg bg-[#FFFFFF1A]" type="text" placeholder="Age">
+                        <select class="pl-4 py-2 rounded-lg bg-[#FFFFFF1A] text-gray-400 font-normal" name="" id="">
+                            <option class="bg-[#FFFFFF1A]" value="sex">Sex</option>
+                            <option class="text-gray-500" value="sex">Male</option>
+                            <option value="sex">Female</option>
+                        </select>
+                        <select class="col-span-2 pl-4 py-3 rounded-lg bg-[#FFFFFF1A] text-gray-400 font-normal" name=""
+                            id="">
+                            <option class="bg-[#FFFFFF1A]" value="activity">Select an activity factor</option>
+                            <option value="activity">Hard Worker</option>
+                            <option value="activity">Normal Worker</option>
+                            <option value="activity">Lazy</option>
+                            <option value="activity">Others</option>
+                        </select>
+
+                    </div>
+
+                    <button class="text-lg font-semibold bg-[#E6533C] py-4 px-10 rounded-4xl">Calculate Now</button>
                 </div>
             </div>
         </section>
